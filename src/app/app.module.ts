@@ -26,6 +26,9 @@ import { EditSkillComponent } from './components/hys/edit-skill.component';
 import { NewSkillComponent } from './components/hys/new-skill.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
 
 
 
@@ -63,6 +66,8 @@ import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.com
     FormsModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage()),
     
 
   ],

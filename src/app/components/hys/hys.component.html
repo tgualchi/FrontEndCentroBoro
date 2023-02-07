@@ -9,7 +9,8 @@
    
         <circle-progress
     [percent]="(skill.porcentaje)" 
-    [radius]="90" [imageSrc]="''" 
+    [radius]="90"
+    [imageSrc]="''"
     [title]="(skill.nombre)"
     [titleColor]="'#212F3C'"
     [showTitle]="true"
@@ -28,7 +29,7 @@
 
 
     <div>
-        <td *ngIf="isLogged">
+        <td *ngIf="isLogged"> <!-- edithys -->
             <button class="btn btn-light" routerLink="/editskill/{{skill.id}}">
                 <i class="bi bi-pencil-fill"></i>EDITAR</button>
         </td>
