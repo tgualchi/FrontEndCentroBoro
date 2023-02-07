@@ -1,0 +1,20 @@
+.row{
+    
+    background: #6a11cb;
+    
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), #8b0e77);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(106, 17, 203, 1), #8b0e77)  
+}
+
+footer{
+    color: #fefefe;
+    font-size: 14px;
+    display: flez;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px -2px 5px #999;
+}
+
