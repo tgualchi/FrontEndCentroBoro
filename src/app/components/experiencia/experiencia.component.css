@@ -8,7 +8,10 @@ div{
 background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), #8b0e77);
 
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: linear-gradient(to right, rgba(106, 17, 203, 1), #8b0e77)
+background: linear-gradient(to right, rgba(106, 17, 203, 1), #8b0e77);
+
+
+
 }
 h1{
     color: #daebea;
@@ -17,6 +20,6 @@ h1{
 
 h3{
     display: inline;
-    color: rgb(32, 26, 26);
+    color: #daebea;
    
 }

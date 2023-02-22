@@ -1,3 +1,4 @@
+
 .row{
     padding: 20px;
     background-color: #ffffff;
@@ -13,14 +14,44 @@
 .img-proyecto{
     box-shadow: 10px 10px 30px #8b0e77;
     box-shadow: ejeX ejeY difumasion color;
+    
 }
 
 h1{
     text-align: center;
     color: #198782;
+    margin-bottom: 1.5rem;
     
 }
 
 h2{
+    text-align: center;
+    color:  #198782;
+}
+
+h3{
+    text-align: center;
     color: #8b0e77;
+}
+
+@media (min-width: 576px){
+    #fotoproyecto{
+       
+        width: 50%;
+
+     
+        box-shadow: 3px 3px 3px cadetblue;
+      
+    }
+}
+
+@media (max-width: 576px){
+    #fotoproyecto{
+
+        width: 100%;
+       
+        box-shadow: 3px 3px 3px cadetblue;
+      
+    
+}
 }

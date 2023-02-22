@@ -29,6 +29,8 @@ import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.com
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
+import { NewProyectosComponent } from './components/proyectos/new-proyectos.component';
+import { EditProyectosComponent } from './components/proyectos/edit-proyectos.component';
 
 
 
@@ -54,7 +56,10 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     LogoAPComponent,
     ProyectosComponent,
     HeaderComponent,
-    EditAcercaDeComponent
+    EditAcercaDeComponent,
+
+    NewProyectosComponent,
+    EditProyectosComponent
 
 
     
