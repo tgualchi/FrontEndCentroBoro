@@ -25,7 +25,7 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px cadetblue;
         left: 3%;
-        top: 600px;
+        top: 700px;
     }
 }
 
@@ -36,18 +36,24 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px cadetblue;
         left: 32%;
-        top: 900px;
+        top: 1000px;
     }
 }
 
 h1{
+    font-family: monospace, sans-serif;
+    font-weight: bold;
     color: #198782;
 }
 
 h3{
-    color: #8b0e77;
+    font-family: monospace, sans-serif;
+   
+    color: #e68c05;
 }
 
 h2{
+    font-family: monospace, sans-serif;
+    font-weight: bold;
     color: #198782;
 }

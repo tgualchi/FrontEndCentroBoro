@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { TokenService } from 'src/app/service/token.service';
 
@@ -28,5 +28,13 @@ export class LogoAPComponent implements OnInit {
   login(){
     this.router.navigate(['/login'])
   }
+
+  isSticky = false;
+
+@HostListener('window:scroll', ['$event'])
+checkSticky() {
+  this.isSticky = window.pageYOffset >= 100;
+}
+
 
 }

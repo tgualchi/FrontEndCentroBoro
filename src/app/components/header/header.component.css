@@ -1,11 +1,11 @@
 div{
-    background: #6a11cb;
+    background: #1d1a09;
     
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), #8b0e77);
+    background: -webkit-linear-gradient(to right, right, rgb(10, 10, 10), #e6ca0c);
     
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgba(106, 17, 203, 1), #8b0e77)
+    background: linear-gradient(to right,  right, rgb(10, 10, 10), #e6ca0c)
 }
     app-social{
         float: right;

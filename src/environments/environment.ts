@@ -12,6 +12,6 @@ export const environment = {
     
     production: false,
    // URL: 'http://localhost:8080/',
-    URL: 'https://backendtob.onrender.com/'
+    URL: 'https://backendcentroboro.onrender.com/'
 
   };

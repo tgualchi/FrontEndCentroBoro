@@ -2,23 +2,31 @@
     padding: 30px;
 }
 div{
-    background: #6a11cb;
+    background: #e9e7e7;
     
 /* Chrome 10-25, Safari 5.1-6 */
-background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), #8b0e77);
+background: -webkit-linear-gradient(to right, rgb(10, 10, 10), #e6ca0c);
 
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: linear-gradient(to right, rgba(106, 17, 203, 1), #8b0e77);
+background: linear-gradient(to right, rgb(10, 10, 10), #e6ca0c);
 
 
 
 }
 h1{
+    font-family: monospace, sans-serif;
+    font-weight: bold;
     color: #daebea;
     display: inline;
 } 
 
+h2{
+    font-family: monospace, sans-serif;
+    color: #daebea;
+}
+
 h3{
+    font-family: monospace, sans-serif;
     display: inline;
     color: #daebea;
    

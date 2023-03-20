@@ -31,6 +31,7 @@ import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
 import { NewProyectosComponent } from './components/proyectos/new-proyectos.component';
 import { EditProyectosComponent } from './components/proyectos/edit-proyectos.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 
 
@@ -59,7 +60,8 @@ import { EditProyectosComponent } from './components/proyectos/edit-proyectos.co
     EditAcercaDeComponent,
 
     NewProyectosComponent,
-    EditProyectosComponent
+    EditProyectosComponent,
+    ContactoComponent
 
 
     

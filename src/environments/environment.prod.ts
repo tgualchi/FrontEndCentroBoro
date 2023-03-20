@@ -12,6 +12,6 @@ export const environment = {
     
    
     production: true,
-    URL: 'https://backendtob.onrender.com/'
+    URL: 'https://backendcentroboro.onrender.com/'
 
   };

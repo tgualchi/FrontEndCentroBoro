@@ -1,3 +1,11 @@
+
+.header {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    /* Agrega cualquier otro estilo que desees para tu encabezado */
+}
+
 .container{
     display: flex;
     justify-content: space-between;
@@ -7,20 +15,29 @@
 .redes img{
     margin-right: 0.5em;
     margin: 0.3em;
+    width: 50px;
+    height: auto;
+  
     }
 
     .redes{
         margin-right: 0.9em;
+        display: inline-block;
     }
 
 
-#APLogo{ 
-    width: 150px; 
+#CBLogo{ 
+    width: 100px;
+    height: auto; 
+    border-radius: 100px;
+   
+    margin: 0.25em;
+
 }
 
 
 img{
-    width: 50px;
+    width: 100px;
 }
 
 .btn{
@@ -31,7 +48,7 @@ img{
     flex-direction: column;
 }
 .redes{
-    display: flex;
+    
     flex-direction: column;
     align-items: center;
 }
@@ -39,3 +56,12 @@ img{
     margin: 0.3em;
 }
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  
+  
